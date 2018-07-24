@@ -12,3 +12,11 @@ let matriz = [
     [],
     []
 ]
+
+for (x = 0; x < 3; x++) {
+    for (y = 0; y < 3; y++) {
+        matriz[x][y] = x.toString() + y.toString();
+    }
+}
+
+console.log(matriz);

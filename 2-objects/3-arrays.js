@@ -5,7 +5,20 @@
 
 
 // Aquí tu código
-
+var arr = [
+    {
+        name: 'pepito',
+        age: 25,
+    },
+    {
+        name: 'pepito',
+        age: 22,
+    },
+    {
+        name: 'Juan',
+        age: 20,
+    }
+];
 
 // Hasta aquí
 

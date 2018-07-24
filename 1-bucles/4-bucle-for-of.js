@@ -33,3 +33,11 @@ let gente = [{
         edad: 10
     },
 ]
+
+let mayoresDe25=[];
+for (let x of gente) {
+    if (x.edad > 25) {
+        mayoresDe25.push(x);
+    }
+}
+console.log (mayoresDe25);
